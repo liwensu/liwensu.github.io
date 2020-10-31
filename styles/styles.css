@@ -1,0 +1,42 @@
+.banner {
+  background-image: url('/images/banner2.jpg');
+  height: 200px;
+  width: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2500px 200px;
+  position: relative;
+  line-height: 200px;
+  padding: 0 3em;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Raleway", Helvetica, sans-serif;
+  text-shadow: 2px 2px #545353;
+}
+.link-container-research {
+  display: flex;
+}
+
+.react-tabs__tab--selected {
+  border-bottom: 2px solid #000;
+  transition: border-width 0.2s linear;;
+}
+
+.link-container-research li {
+  margin-right: 3em;
+  cursor: pointer;
+}
+
+.react-tabs__tab-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.font-content {
+  font-family: 'Arial', Helvetica, sans-serif !important;
+  color: #000;
+  font-size: 1em !important;
+}
